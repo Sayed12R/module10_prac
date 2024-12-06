@@ -1,0 +1,125 @@
+:root{
+    --pcolor:red;
+    --psize:20px;
+    --pweight:600;
+    --pfamily:sans-serif;
+}
+header{
+    max-width: 1600px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    padding: 50px 200px;
+}
+.btn{
+    border-radius: 25px;
+    background-color: rgb(186, 14, 106);
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: var(--pweight);
+    border-style: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: gray;
+}
+
+nav{
+    display: flex;
+  
+   justify-content: space-between;
+    text-align: center;
+    /* background-color: bisque; */
+}
+nav h2{
+    font-size: 30px;
+    font-weight: 900;
+}
+.header{
+    display: flex;
+  
+    justify-content: space-between;
+     text-align: center;
+     height: 53vh;
+     /* background-color: yellow; */
+}
+.h-para{
+    width: 40%;
+    text-align: start;
+    padding-top: 90px;
+    margin-bottom: 0px;
+}
+.h-para h1{
+    font-size: 60px;
+    margin-bottom: 0px;
+    font-family: var(--pfamily);
+}
+.h-para p{
+    font-size: var(--psize);
+    font-weight: var(--pweight);
+    font-family: var(--pfamily);
+    margin-top: 9px;
+}
+nav ul{
+    display: flex;
+    margin-right: 20px;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: var(--psize);
+    font-weight: var(--pweight);
+    font-family: var(--pfamily);
+}
+nav li a{
+    text-decoration: none;
+    color: rgba(75, 67, 67, 0.96);
+    cursor: pointer;
+  
+}
+.header{
+    background: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: 1000px 7px;
+    background-color: white;
+    /* background-size: 50%; */
+}
+.h-img img{
+    padding-top: 44px;
+    padding-right: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .mmm{
+    background-color: yellowgreen;
+    max-width: 800px;
+} */
